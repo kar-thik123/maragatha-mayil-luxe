@@ -35,7 +35,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
         <a href="#home" className="flex items-center gap-3">
           <span
-            className={`flex items-center justify-center rounded-full bg-ivory p-1 ring-1 ring-gold-soft/40 transition-all duration-700 ${
+            className={`flex items-center justify-center overflow-hidden rounded-full bg-ivory p-1 ring-1 ring-gold-soft/40 transition-all duration-700 ${
               scrolled ? "size-11" : "size-14"
             }`}
           >

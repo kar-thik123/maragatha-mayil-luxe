@@ -43,7 +43,7 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-3xl px-6 py-32 text-center">
-        <span className="animate-fade-up mx-auto flex size-32 items-center justify-center rounded-full bg-ivory/95 p-5 shadow-[0_20px_60px_-20px_rgba(0,91,79,0.85)] ring-1 ring-gold-soft/40 sm:size-40">
+        <span className="animate-fade-up mx-auto flex size-32 items-center justify-center overflow-hidden rounded-full bg-ivory/95 p-5 shadow-[0_20px_60px_-20px_rgba(0,91,79,0.85)] ring-1 ring-gold-soft/40 sm:size-40">
           <img
             src={logo.url}
             alt="Maragatha Mayil Jewels"
