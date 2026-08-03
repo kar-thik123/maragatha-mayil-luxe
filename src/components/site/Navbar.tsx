@@ -34,13 +34,19 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
         <a href="#home" className="flex items-center gap-3">
-          <img
-            src={logo.url}
-            alt="Maragatha Mayil Jewels logo"
-            width={56}
-            height={56}
-            className={`transition-all duration-700 ${scrolled ? "size-11" : "size-14"}`}
-          />
+          <span
+            className={`flex items-center justify-center rounded-full bg-ivory p-1 ring-1 ring-gold-soft/40 transition-all duration-700 ${
+              scrolled ? "size-11" : "size-14"
+            }`}
+          >
+            <img
+              src={logo.url}
+              alt="Maragatha Mayil Jewels logo"
+              width={56}
+              height={56}
+              className="size-full object-contain"
+            />
+          </span>
           <span className="hidden leading-tight sm:block">
             <span
               className={`block font-[family-name:var(--font-display)] tracking-[0.16em] transition-colors ${

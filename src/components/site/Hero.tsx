@@ -43,14 +43,15 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-3xl px-6 py-32 text-center">
-        <img
-          src={logo.url}
-          alt="Maragatha Mayil Jewels"
-          width={150}
-          height={150}
-          className="animate-fade-up mx-auto size-28 drop-shadow-[0_12px_40px_rgba(0,91,79,0.55)] sm:size-36"
-          style={{ mixBlendMode: "multiply", filter: "brightness(1.06)" }}
-        />
+        <span className="animate-fade-up mx-auto flex size-32 items-center justify-center rounded-full bg-ivory/95 p-5 shadow-[0_20px_60px_-20px_rgba(0,91,79,0.85)] ring-1 ring-gold-soft/40 sm:size-40">
+          <img
+            src={logo.url}
+            alt="Maragatha Mayil Jewels"
+            width={150}
+            height={150}
+            className="size-full object-contain"
+          />
+        </span>
         <p
           className="animate-fade-up mt-10 text-[0.68rem] uppercase tracking-[0.5em] text-gold-soft/90"
           style={{ animationDelay: "150ms" }}
